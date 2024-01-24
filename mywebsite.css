@@ -1,0 +1,57 @@
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    padding:5px;
+    align-items: center;
+    text-align: center;
+    color:red;
+    background-color:rgb(143, 130, 11);
+}
+.item2{
+    align-items: center;
+}
+.item1{
+    padding:5px;
+    align-items: center;
+    text-align: center;
+    background-color:aqua;
+    border:3px solid rgb(8, 15, 16);
+    color:azure;
+}
+body{
+  background-color: black;
+}
+.heading1{
+    color:white;
+}
+.trynowbutton{
+    padding:10px;
+    color:red;
+    background-color:rgb(143, 130, 11);
+}
+.carimages{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    align-items:end;
+}
+.customerbutton{
+    padding:5px;
+    color:red;
+    background-color:gold;
+}
+.text1{
+    color:white;
+    font-size: larger;
+}
+.container2{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    align-items:center;
+}
