@@ -14,7 +14,8 @@ header {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap:30px;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -133,4 +134,17 @@ footer p {
     background-color:#555;
     padding:20px;
     border-radius: 20px;
+}
+span{
+    color:#736907;
+    padding:5px;
+    border:3px;
+}
+.containers2{
+    display: flex;
+    padding:50px;
+    justify-content:flex-start;
+    gap:25px;
+    align-items: center;
+    margin: 0 auto;
 }
