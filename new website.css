@@ -106,6 +106,7 @@ footer p {
     grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
     gap: 300px;
     background-color:rgb(70, 68, 68);
+    border-radius:10px;
 }
 .items2{
     text-align: center;
@@ -147,4 +148,21 @@ span{
     gap:25px;
     align-items: center;
     margin: 0 auto;
+}
+.container3{
+    display: flex;
+    justify-content:space-between;
+    gap:30px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+    padding:10px;
+    border-radius:5px;
+}
+.icons{
+    background-color: #555;
+    padding:10px;
+    border-radius:5px;
+
 }

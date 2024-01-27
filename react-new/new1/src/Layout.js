@@ -15,6 +15,24 @@ export default function Layout() {
                 <li>
                     <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
+                <li>
+                    <Link className="nav-link" to="/Counter">Counter</Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Effect">Effect</Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Reducer">Reducer</Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Callback">Callback</Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Ref">Ref</Link>
+                </li>
+                <li>
+                    <Link className="nav-link" to="/Memo">Memo</Link>
+                </li>
             </ul>
         </nav>
         <Outlet/>
